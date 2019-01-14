@@ -1,6 +1,6 @@
-package basicDay3n4Assignment8n9n1n2n3n4;
+package basicDay3n4Assignment8n9n1n2n3n4n6n7;
 
-public class Student extends CourseRegistration {
+public abstract class Student extends CourseRegistration {
     protected int studentID;
     protected String studentType;
     protected String studentName;
@@ -15,7 +15,6 @@ public class Student extends CourseRegistration {
         this.studentName = studentName;
         this.residentialStatus = residentialStatus;
         this.feesPerMonth = feesPerMonth;
-        displayDetails();
 
     }
 
@@ -39,7 +38,17 @@ public class Student extends CourseRegistration {
         return feesPerMonth;
     }
 
-    public void displayDetails(){
-        System.out.println(this.studentID + " " + this.studentName+" "+ this.residentialStatus);
+    @Override
+    public void displayDetails() {
+        super.displayDetails();
+        System.out.println(this.studentID + " " + this.studentName + " " + this.residentialStatus);
+
     }
 }
+
+
+
+
+
+
+

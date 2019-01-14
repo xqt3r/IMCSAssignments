@@ -1,12 +1,14 @@
-package basicDay3n4Assignment8n9n1n2n3n4;
+package basicDay3n4Assignment8n9n1n2n3n4n6n7;
 
 public class DayScholar extends Student {
     private String address;
+    final private int semesterfees = 120000;
 
     public DayScholar(String courseName, int studentID, String studentType, String studentName, double feesPerMonth, String address) {
         super(courseName, studentID, studentType, studentName, "DayScholar", feesPerMonth);
         this.address = address;
         displayDetails();
+        System.out.println("\n");
     }
 
     //    public DayScholar(int studentID, String studentType, String fNAme, String lName, String residentialStatus, double feesPerMonth, String address) {
@@ -20,7 +22,15 @@ public class DayScholar extends Student {
         return address;
     }
 
-    public void displayDetails(){
+    @Override
+    public void displayDetails() {
+        super.displayDetails();
         System.out.println(this.address);
     }
+
+    public void calculateFees(){
+        feesPerMonth = semesterfees/6;
+    }
 }
+
+

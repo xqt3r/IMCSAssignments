@@ -1,4 +1,4 @@
-package basicDay3n4Assignment8n9n1n2n3n4;
+package basicDay3n4Assignment8n9n1n2n3n4n6n7;
 
 public class CourseRegistration {
     protected static int regID;
@@ -6,9 +6,9 @@ public class CourseRegistration {
 
     public CourseRegistration(String courseName) {
         this.courseName = courseName;
-        displayDetails();
+
     }
     public void displayDetails(){
-        System.out.println("Course Name = "+ courseName);
+        System.out.println("Course Name = "+ this.courseName);
     }
 }

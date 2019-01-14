@@ -1,4 +1,4 @@
-package basicDay3n4Assignment8n9n1n2n3n4;
+package basicDay3n4Assignment8n9n1n2n3n4n6n7;
 
 public class Hostelite extends Student {
     private String hostelName;
@@ -9,6 +9,7 @@ public class Hostelite extends Student {
         this.hostelName = hostelName;
         this.roomNumber = roomNumber;
         displayDetails();
+        System.out.println("\n");
     }
 
     public String getHostelName() {
@@ -19,7 +20,13 @@ public class Hostelite extends Student {
         return roomNumber;
     }
 
-    public void displayDetails(){
+
+    @Override
+    public void displayDetails() {
+        super.displayDetails();
         System.out.println(this.hostelName + " "+ this.roomNumber);
+
     }
 }
+
+
