@@ -1,4 +1,4 @@
-package advancedDay1Assignment5n6;
+package advancedDay1Assignment5_6;
 
 //advanced ass 5 classes
 public class details{

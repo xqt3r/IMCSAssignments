@@ -1,4 +1,4 @@
-package basicDay3n4Assignment8n9n1n2n3n4n6n7;
+package basicDay3_4Assignment8_9_1_2_3_4_6_7;
 
 public class Main {
     public static void main(String args[]){

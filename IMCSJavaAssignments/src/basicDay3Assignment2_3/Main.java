@@ -1,4 +1,4 @@
-package basicDay3Assignment2n3;
+package basicDay3Assignment2_3;
 
 
 // Basic day 3 Assignment 2

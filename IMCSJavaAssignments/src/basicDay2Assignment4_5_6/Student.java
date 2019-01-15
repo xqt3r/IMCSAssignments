@@ -1,4 +1,4 @@
-package basicDay2Assignment456;
+package basicDay2Assignment4_5_6;
 
 public class Student {
 

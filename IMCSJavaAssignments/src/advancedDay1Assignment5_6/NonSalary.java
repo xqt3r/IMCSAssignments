@@ -1,4 +1,4 @@
-package advancedDay1Assignment5n6;
+package advancedDay1Assignment5_6;
 
 public class NonSalary extends details{
     private String multiCityChequeBook = "No";

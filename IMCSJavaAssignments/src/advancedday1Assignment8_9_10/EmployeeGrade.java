@@ -1,4 +1,4 @@
-package advancedday1Assignment8n9n10;
+package advancedday1Assignment8_9_10;
 
 public class EmployeeGrade {
 	private int employeeNo;

@@ -1,4 +1,4 @@
-package advancedDay1Assignment2n3;
+package advancedDay1Assignment2_3;
 
 public class EmployeeGrade {
 	public static void main(String[] args){
