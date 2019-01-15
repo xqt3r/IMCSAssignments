@@ -7,9 +7,13 @@ public class Student {
     protected String studentNAme;
 
     public Student(int studentID, char studentType, String studentNAme) {
-        this.studentID = counter;
-        counter++;
+        this();
         this.studentType = studentType;
         this.studentNAme = studentNAme;
+    }
+
+    public Student() {
+        this.studentID = counter;
+        counter++;
     }
 }

@@ -7,7 +7,7 @@ public class DayScholar extends Student {
     public DayScholar(String courseName, int studentID, String studentType, String studentName, double feesPerMonth, String address) {
         super(courseName, studentID, studentType, studentName, "DayScholar", feesPerMonth);
         this.address = address;
-        displayDetails();
+        this.displayDetails();
         System.out.println("\n");
     }
 
