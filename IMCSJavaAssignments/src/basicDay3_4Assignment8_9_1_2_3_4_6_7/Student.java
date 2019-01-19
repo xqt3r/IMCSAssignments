@@ -15,6 +15,7 @@ public abstract class Student extends CourseRegistration {
         this.studentName = studentName;
         this.residentialStatus = residentialStatus;
         this.feesPerMonth = feesPerMonth;
+        displayDetails();
 
     }
 
@@ -38,9 +39,9 @@ public abstract class Student extends CourseRegistration {
         return feesPerMonth;
     }
 
-    @Override
+    //@Override
     public void displayDetails() {
-        super.displayDetails();
+        //super.displayDetails();
         System.out.println(this.studentID + " " + this.studentName + " " + this.residentialStatus);
 
     }

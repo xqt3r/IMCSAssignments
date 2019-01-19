@@ -1,5 +1,7 @@
 package advancedday1Assignment8_9_10;
 
+import advancedDay3Assignment22.Employee;
+
 public class EmployeeGrade {
 	private int employeeNo;
 	private String employeeName;
@@ -66,5 +68,7 @@ public class EmployeeGrade {
 		EmployeeGrade ram = new EmployeeGrade();
 		ram.calculateAverageFeedback();
 		ram.grade();
+
+		EmployeeGrade [] array = new EmployeeGrade[5];
 	}
 }

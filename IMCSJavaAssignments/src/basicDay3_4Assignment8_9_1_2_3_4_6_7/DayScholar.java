@@ -22,9 +22,9 @@ public class DayScholar extends Student {
         return address;
     }
 
-    @Override
+    //@Override
     public void displayDetails() {
-        super.displayDetails();
+        //super.displayDetails();
         System.out.println(this.address);
     }
 
